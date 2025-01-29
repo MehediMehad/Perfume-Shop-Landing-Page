@@ -55,6 +55,7 @@ const Navbar = () => {
                             <p className="font-almarai text-[11px] font-normal leading-[12.28px] tracking-[0.07em]">TRUSTED ONLINE SINCE 1997</p>
                         </div>
                     </div>
+                    {/* Buttons */}
                     <div className="flex gap-x-3 box-border mx-auto md:mx-0">
                         <div className="flex gap-x-[6px] items-center justify-center hover:border-[#E5E5E5] p-2 cursor-pointer duration-200">
                             <FaRegUser className="text-[15px]" />
@@ -70,14 +71,14 @@ const Navbar = () => {
                         </div>
                     </div>
                 </div>
-                {/* Items section */}
-                <div className="items-center justify-center flex mx-auto mt-6">
-                    <div className="flex flex-wrap gap-x-5">
-                        {navItems?.map((i, index) => (
-                            <p className="font-avenir text-[14px] font-[450] leading-[17.15px] tracking-[0.05em] text-left text-[#383838] cursor-pointer" key={index}>{i.name}</p>
-                        ))}
-                    </div>
-                </div>;
+            </div>
+            {/* Items section */}
+            <div className="items-center justify-center flex mx-auto mt-6 px-3">
+                <div className="flex flex-wrap gap-x-5 justify-center">
+                    {navItems?.map((i, index) => (
+                        <p className="font-avenir text-[14px] font-[450] leading-[17.15px] tracking-[0.05em] mb-2 text-left text-[#383838] cursor-pointer" key={index}>{i.name}</p>
+                    ))}
+                </div>
             </div>
         </nav>
     );
