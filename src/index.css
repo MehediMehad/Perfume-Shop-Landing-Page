@@ -1,14 +1,39 @@
 @import "tailwindcss";
 
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+/* Custom Class */
+@layer utilities {
+  .font-avenir {
+    font-family: "Avenir", sans-serif;
+  }
+  .font-kodchasan {
+    font-family: "Kodchasan", sans-serif;
+  }
+  .font-almarai {
+    font-family: "Almarai", sans-serif;
+  }
+  .logo {
+    font-family: "Kodchasan", sans-serif;
+    width: 216px;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .bg-primary {
+    background-color: #4d2952; /* Primary Color */
+  }
+  .font-weight-400 {
+    font-weight: 400;
+    line-height: 17.15px;
+  }
 
-  /* background-color: #242424; */
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  /* mobile*/
+  @media (max-width: 640px) {
+    .font-weight-400 {
+      font-size: 12px;
+      line-height: 14px;
+    }
+  }
 }
