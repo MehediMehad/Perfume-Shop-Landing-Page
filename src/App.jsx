@@ -1,3 +1,4 @@
+import BestSellers from "./components/BestSellers";
 import DiscountSection from "./components/DiscountSection";
 import Navbar from "./components/Navbar";
 import NewArrivals from "./components/NewArrivals";
@@ -14,6 +15,7 @@ const App = () => {
       <ShopCollection />
       <RecommendedSection />
       <NewArrivals />
+      <BestSellers />
     </>
   );
 };

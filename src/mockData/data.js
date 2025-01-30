@@ -6,6 +6,9 @@ import N1 from "../assets/image/product/N01.png";
 import N2 from "../assets/image/product/N02.png";
 import N3 from "../assets/image/product/N03.png";
 import N4 from "../assets/image/product/N04.png";
+import B1 from "../assets/image/product/B01.png";
+import B2 from "../assets/image/product/B02.png";
+import B3 from "../assets/image/product/B03.png";
 
 export const recommendedProducts = [
   {
@@ -53,6 +56,50 @@ export const recommendedProducts = [
 ];
 
 export const newArrivalsProducts = [
+  {
+    brand: "JO MALONE",
+    name: "VETIVER & GOLDEN VANILLA",
+    type: "Luxurizing Clay",
+    price: "51.74",
+    image: N1,
+  },
+  {
+    brand: "ARMAF",
+    name: "PASSION",
+    type: "Eau De Parfum",
+    price: "51.74",
+    image: B1,
+  },
+  {
+    brand: "JO MALONE",
+    name: "VETIVER & GOLDEN VANILLA",
+    type: "Eau De Toilette",
+    price: "51.74",
+    image: B2,
+  },
+  {
+    brand: "BVLGARI",
+    name: "EXTREME",
+    type: "Luxurizing Clay",
+    price: "51.74",
+    image: B3,
+  },
+  {
+    brand: "JO MALONE",
+    name: "VETIVER & GOLDEN VANILLA",
+    type: "Luxurizing Clay",
+    price: "51.74",
+    image: R1,
+  },
+  {
+    brand: "ARMAF",
+    name: "PASSION",
+    type: "Eau De Parfum",
+    price: "51.74",
+    image: R2,
+  },
+];
+export const bestSellersProducts = [
   {
     brand: "JO MALONE",
     name: "VETIVER & GOLDEN VANILLA",

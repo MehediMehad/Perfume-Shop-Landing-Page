@@ -27,7 +27,7 @@ const Carousel = ({ header, perPage, products }) => {
 
     return (
         <div className="max-w-[1340px] mx-auto px-4 py-8 font-avenir">
-            <h2 className="text-[30px] font-extrabold leading-[36.75px] text-center decoration-solid my-10">
+            <h2 className="text-[30px] font-extrabold leading-[36.75px] text-center decoration-solid my-10 uppercase">
                 {header}
             </h2>
             <div className="relative">
