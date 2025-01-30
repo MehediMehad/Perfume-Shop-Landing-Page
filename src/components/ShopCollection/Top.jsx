@@ -7,7 +7,7 @@ const Top = () => {
             <p className="text-[15px] font-normal leading-[27px] text-center decoration-1">
                 Our delicious, limited-edition collection
             </p>
-            <button className="border-1 w-[160px] h-[46px] text-center mx-auto font-bold">Shop All</button>
+            <button className="border-1 w-[160px] h-[46px] text-center mx-auto font-bold cursor-pointer">Shop All</button>
         </div>
     );
 };

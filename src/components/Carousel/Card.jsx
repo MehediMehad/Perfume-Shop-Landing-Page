@@ -35,7 +35,7 @@ const Card = ({ product }) => {
                     </p>
 
                     {/* Add to bag button */}
-                    <button className="w-[252px] h-[46px] py-2 mt-2 text-[14px] font-extrabold leading-[17.15px] text-center border-[1px] border-[#C4C4C4]">
+                    <button className="w-[252px] h-[46px] py-2 mt-2 text-[14px] font-extrabold leading-[17.15px] text-center border-[1px] cursor-pointer border-[#C4C4C4]">
                         ADD TO BAG
                     </button>
                 </div>

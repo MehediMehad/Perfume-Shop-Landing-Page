@@ -1,6 +1,7 @@
 import Banner from "./components/Banner";
 import BestSellers from "./components/BestSellers";
 import DiscountSection from "./components/DiscountSection";
+import GiftCertificate from "./components/GiftCertificate";
 import Navbar from "./components/Navbar";
 import NewArrivals from "./components/NewArrivals";
 import RecommendedSection from "./components/RecommendedSection";
@@ -17,6 +18,7 @@ const App = () => {
       <ShopCollection />
       <RecommendedSection />
       <NewArrivals />
+      <GiftCertificate />
       <BestSellers />
     </>
   );
