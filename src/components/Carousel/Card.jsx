@@ -4,14 +4,14 @@ const Card = ({ product }) => {
     return (
         <div className="relative mx-2 h-[488px]">
             {/* Blue border highlight */}
-            <div className="absolute inset-0 border-[0.5px] border-blue-500 -m-1"></div>
+            <div className="absolute inset-0 -m-1"></div>
 
             {/* Product card content */}
             <div className="relative bg-white p-4 rounded-lg">
                 {/* Women tag and wishlist */}
                 <div className="flex justify-between mb-4">
                     <span className="bg-[#4D2952] text-white text-xs px-2 py-1 rounded">WOMEN</span>
-                    <button className="text-gray-400 hover:text-red-500">
+                    <button className="text-gray-400 hover:text-red-500 cursor-pointer">
                         <Heart size={20} />
                     </button>
                 </div>

@@ -1,3 +1,4 @@
+import Banner from "./components/Banner";
 import BestSellers from "./components/BestSellers";
 import DiscountSection from "./components/DiscountSection";
 import Navbar from "./components/Navbar";
@@ -11,6 +12,7 @@ const App = () => {
     <>
       <Navbar />
       <TopOffer />
+      <Banner />
       <DiscountSection />
       <ShopCollection />
       <RecommendedSection />
