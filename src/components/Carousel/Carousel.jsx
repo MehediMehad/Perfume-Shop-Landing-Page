@@ -2,7 +2,7 @@ import { useState } from "react";
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import Card from "./Card";
 
-const Carousel = ({ header, perPage, button, products }) => {
+const Carousel = ({ header, perPage, products }) => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const itemsPerPage = perPage;
 
@@ -50,12 +50,6 @@ const Carousel = ({ header, perPage, button, products }) => {
                     className="absolute right-5 top-1/2 -translate-y-1/2 translate-x-4 p-2 bg-[#F5F6F6] h-[95px]"
                 >
                     <ChevronRight size={12} />
-                </button>
-            </div>
-
-            <div className="flex justify-center mt-6">
-                <button className="px-6 py-2 text-sm border border-gray-300 rounded-md hover:bg-gray-50">
-                    {button}
                 </button>
             </div>
         </div>
