@@ -20,7 +20,7 @@ const Banner = () => {
   }, []);
 
   return (
-    <div className="flex flex-col items-center gap-4 max-w-7xl mx-auto mt-4">
+    <div className="flex flex-col items-center gap-4 max-w-7xl md:max-w-[1234px] mx-auto mt-4">
       {/* Navigation and Banner Container */}
       <div className="relative w-full flex items-center">
         {/* Left Arrow - Outside Banner */}

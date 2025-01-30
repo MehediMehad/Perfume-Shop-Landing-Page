@@ -6,7 +6,7 @@ import p3 from '../assets/image/Rectangle_1144-removebg-preview.png';
 
 const DiscountSection = () => {
     return (
-        <div className='relative overflow-hidden max-w-[1234px] h-[223px] bg-[#FCD0CC] mx-auto mt-20'>
+        <div className='relative overflow-hidden max-w-[1234px] h-[223px] bg-[#FCD0CC] mx-auto mt-6'>
             {/* Left side text content */}
             <div className="absolute top-1/2 -translate-y-1/2 z-10 pl-5 md:pl-24 flex flex-col gap-4">
                 <h2 className="text-[48px] font-bold text-[#1E293B] leading-[48px] tracking-tight">
