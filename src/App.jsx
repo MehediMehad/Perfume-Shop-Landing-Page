@@ -1,3 +1,4 @@
+import DiscountSection from "./components/DiscountSection";
 import Navbar from "./components/Navbar";
 import TopOffer from "./components/TopOffer";
 
@@ -6,6 +7,7 @@ const App = () => {
     <>
       <Navbar />
       <TopOffer />
+      <DiscountSection />
     </>
   );
 };
